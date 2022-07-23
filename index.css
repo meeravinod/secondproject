@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Arima:wght@200&family=Caveat&family=Comfortaa:wght@300&family=Dancing+Script&family=Dosis:wght@300&family=Flamenco&family=Headland+One&family=Josefin+Sans:wght@500&family=Lobster&family=McLaren&family=Montserrat&family=Mukta+Mahee:wght@200&family=Nunito:wght@200&family=Pacifico&family=Quicksand:wght@300&family=Rubik+Moonrocks&family=Shadows+Into+Light&family=Titan+One&display=swap');
+*{
+    /* margin: 0; */
+}
+
+body{
+    /* overflow:hidden; */
+}
+.hero{
+    height: 90vh;
+    width: 100vw;
+    background-image:url(./img/low-angle-shot-interior-road-tower-captured-copenhagen-denmark.jpg) ;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+.small-box{
+    /* padding: 30px; */
+    height: 350px;
+    /* max-width: 300px; */
+    /* background-color: white; */
+    /* margin-left: 570px;
+    margin-top: 250px; */
+    top:50%;
+    left: 50%;
+    position: absolute;
+    text-align: left;
+    /* border: solid 1px #555c66; */
+    transform: translate(-50%,-50%);
+}
+.hero-btn{
+    color: white;
+    font-family:'Dosis', sans-serif;
+    font-size: 20px;
+    background-color: #555c66;
+    padding:10px;
+    width: 300px;
+    border:none;
+}
+.hero-btn:hover{
+    background-color: black;
+    color:white;
+}
+
+/* @media (max-width: 900px) {
+h2{
+    font-size: 20px;
+    /* padding: 10px; */
+    /* text-align: center;
+}
+} */ 
+.white-area{
+    height: 70vh;
+    width: 100vw;
+    /* background-size: cover; */
+    /* display: flex; */
+    background-color: #ffffff;
+    position: relative;
+}
+.g1{
+    font-family: 'Nunito', sans-serif;
+    padding: 25px;
+    font-size: 3.75rem;
+    color: #555c66;
+}
+.col-lg-6{
+    text-align: center;
+}
+.card{
+    float:left;
+    margin-left: 55px;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+#s1{
+    margin-top: 100px;
+    background-image: url(./img/cabinet-tv-modern-living-room-with-armchair-lamp-table-flower-plant-concrete-wall-background-3d-rendering.jpg);
+    height: 80vh;
+    width: 100%;
+}
+.white-space{
+    background-color: #f2f2f2;
+    height: 70vh;
+    width: 100%;
+}
+.b1,
+.b2{
+    padding: 10px;
+}
+.b1:hover{
+    background-color: black;
+    color: white;
+}
+.b2:hover{
+    background-color: black;
+    color: white;
+}
+
+.card:hover{
+    transform: scale(1.3);
+}
+.reviews{
+    height: 90vh;
+    width: 100%;
+}
+
+
+
+#r1{
+    height: 180px;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 20px;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+    
+}
+#r1:hover{
+    transform: scale(1.1);
+}
+.ending-part{
+    height: 70vh;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #404040;
+}
+.last-div{
+    align-items: center;
+}
+/* .white-text-area{ */
+    /* background-image: url(./img/maxresdefault.jpg); */
+    /* background-size: cover; */
+    /* position: absolute;
+    text-align: center;
+    /* margin-left: 600px; */
+    /* padding: 50px; */
+/* } 
+
+
+
+
