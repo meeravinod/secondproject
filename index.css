@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Arima:wght@200&family=Caveat&family=Comfortaa:wght@300&family=Dancing+Script&family=Dosis:wght@300&family=Flamenco&family=Headland+One&family=Josefin+Sans:wght@500&family=Lobster&family=McLaren&family=Montserrat&family=Mukta+Mahee:wght@200&family=Nunito:wght@200&family=Pacifico&family=Quicksand:wght@300&family=Rubik+Moonrocks&family=Shadows+Into+Light&family=Titan+One&display=swap');
-*{
-    /* margin: 0; */
+html {
+    overflow-x: hidden;
 }
-
 body{
-    /* overflow:hidden; */
+    overflow-x: hidden;
 }
 .hero{
     height: 90vh;
@@ -17,18 +16,23 @@ body{
     z-index: 0;
 }
 .small-box{
-    /* padding: 30px; */
-    height: 350px;
-    /* max-width: 300px; */
-    /* background-color: white; */
-    /* margin-left: 570px;
-    margin-top: 250px; */
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
     top:50%;
     left: 50%;
     position: absolute;
     text-align: left;
-    /* border: solid 1px #555c66; */
     transform: translate(-50%,-50%);
+}
+.box-text1{
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+}
+@media screen and (min-width: 1024px) {
+    .box-text1{
+        font-size: 4.0625rem;
+    }
 }
 .hero-btn{
     color: white;
@@ -44,20 +48,11 @@ body{
     color:white;
 }
 
-/* @media (max-width: 900px) {
-h2{
-    font-size: 20px;
-    /* padding: 10px; */
-    /* text-align: center;
-}
-} */ 
 .white-area{
-    height: 70vh;
     width: 100vw;
-    /* background-size: cover; */
-    /* display: flex; */
     background-color: #ffffff;
     position: relative;
+    padding: 0 20px 30px 20px;
 }
 .g1{
     font-family: 'Nunito', sans-serif;
@@ -85,8 +80,8 @@ h2{
 }
 .white-space{
     background-color: #f2f2f2;
-    height: 70vh;
     width: 100%;
+    padding: 20px 20px 40px;
 }
 .b1,
 .b2{
@@ -105,14 +100,12 @@ h2{
     transform: scale(1.3);
 }
 .reviews{
-    height: 90vh;
     width: 100%;
 }
 
 
 
 #r1{
-    height: 180px;
     font-family: 'Mukta Mahee', sans-serif;
     font-size: 20px;
     transform: scale(1);
@@ -123,7 +116,6 @@ h2{
     transform: scale(1.1);
 }
 .ending-part{
-    height: 70vh;
     width: 100%;
     margin-top: 100px;
     background-color: #404040;
@@ -131,14 +123,6 @@ h2{
 .last-div{
     align-items: center;
 }
-/* .white-text-area{ */
-    /* background-image: url(./img/maxresdefault.jpg); */
-    /* background-size: cover; */
-    /* position: absolute;
-    text-align: center;
-    /* margin-left: 600px; */
-    /* padding: 50px; */
-/* } 
 
 
 
